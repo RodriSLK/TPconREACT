@@ -7,7 +7,7 @@ const carruselHome = () => {
         <img 
         className="d-block w-100"
         style={{maxHeight: "500px", objectFit: 'cover'}}
-        src="public/images/slide1.jpg" 
+        src="/assets/images/slide1.jpg" 
         alt="imagen carrusel"  />
       </Carousel.Item>
 
@@ -15,7 +15,7 @@ const carruselHome = () => {
         <img 
         className="d-block w-100"
         style={{maxHeight: "500px", objectFit: 'cover'}}
-        src="public/images/slide2.jpg" 
+        src="/assets/images/slide2.jpg" 
         alt="imagen carrusel"  />
       </Carousel.Item>
 
@@ -23,7 +23,7 @@ const carruselHome = () => {
       <img 
         className="d-block w-100"
         style={{maxHeight: "500px", objectFit: 'cover'}}
-        src="public/images/slide3.jpg" 
+        src="/assets/images/slide3.jpg" 
         alt="imagen carrusel"  />
       </Carousel.Item>
     </Carousel>
